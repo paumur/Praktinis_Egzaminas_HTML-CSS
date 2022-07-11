@@ -1,0 +1,23 @@
+header {
+  .nav-bar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    nav {
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 64px;
+      border-bottom: solid 2px #d9d9d9;
+      .home-button {
+        width: 40px;
+      }
+      .nav-button {
+        margin: 0 27px;
+      }
+    }
+  }
+}
